@@ -1,1 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.weather{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 
+.search {
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .weather div{
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  h1{
+    margin-bottom: 5px;
+  }
+  p{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .weather img {
+    width: 50px;
+    height: 50px;
+  }
+  
