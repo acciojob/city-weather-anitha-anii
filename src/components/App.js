@@ -23,6 +23,7 @@ const App = () => {
           icon: data.weather[0].icon,
         };
         setWeatherData(weatherData);
+        setSearch("");
       })
       .catch((error) => {
         console.log(error);
